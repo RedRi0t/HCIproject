@@ -200,7 +200,7 @@
         width: 100%;
         padding: 0;
         margin-left: 0;
-        background: rgb(75, 169, 234);
+        background: #409eff;
         border: 0;
         color: #fff;
         font-size: 18px;

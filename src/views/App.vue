@@ -20,12 +20,12 @@
         text-align: center;
         color: #2c3e50;
         margin-top: 0;
-        height: 500px;
+        height: 100%;
     }
 
-    body {
+    html, body {
         margin: 0 0 0 0;
-        min-height: 500px;
+        height: 100%;
     }
 
 </style>

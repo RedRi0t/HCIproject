@@ -3,7 +3,7 @@
             <div class="content">
                 <div class="foo">
                     <div class="head clearFix">
-                        <div class="rightHead">Yummy</div>
+                        <div class="rightHead">Y u m m y</div>
                     </div>
                     <StudentLoginInputs v-if="showStudentLogin"></StudentLoginInputs>
                     <AdminLogin v-else-if="showAdminLogin"></AdminLogin>
