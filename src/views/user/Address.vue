@@ -1,28 +1,28 @@
 <template>
     <el-col span="24">
-
         <el-row>
-            <el-col>
-                城市 &nbsp：
-                <el-input v-model="city" size="small" style="width: 100px;height:1px">
-                </el-input>
-
-                &nbsp&nbsp&nbsp区(县) &nbsp：
-                <el-input v-model="district" size="small" style="width: 100px;height:1px">
-                </el-input>
+            <el-col span="1">
+                <br>
+            </el-col>
+            <el-col span="22">
+                <br>
+                <br>
+                <el-form :inline="true" label-width="80px">
+                    <el-form-item label="城市">
+                        <el-input v-model="city"></el-input>
+                    </el-form-item>
+                    <el-form-item label="区/县">
+                        <el-input v-model="district"></el-input>
+                    </el-form-item>
+                    <el-form-item label="详细地址">
+                        <el-input v-model="address"></el-input>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button type="primary" @click="addAddress">添加地址</el-button>
+                    </el-form-item>
+                </el-form>
             </el-col>
         </el-row>
-        <el-row><br></el-row>
-        <el-row>
-            <el-col>
-                详细地址 &nbsp：
-                <el-input v-model="address" size="small" style="width: 300px;height:1px">
-                </el-input>
-                &nbsp&nbsp
-                <el-button type="primary" @click="addAddress">添加地址</el-button>
-            </el-col>
-        </el-row>
-        <el-row><br></el-row>
 
         <el-table
                 :data="addresses"

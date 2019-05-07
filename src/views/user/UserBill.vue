@@ -1,37 +1,42 @@
 <template>
     <el-col span="24">
         <el-row>
+            <br/>
+            <br/>
             未支付订单
+            <br/>
+            <br/>
         </el-row>
         <el-table
                 :data="bills1"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="商家编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column label="操作">
                 <template slot-scope="scope">
@@ -47,39 +52,42 @@
                 </template>
             </el-table-column>
         </el-table>
-        <el-row><br></el-row>
+        <el-row><br><br/><br/></el-row>
+
         <el-row>
             已支付订单
+            <br/><br/>
         </el-row>
         <el-table
                 :data="bills2"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="商家编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column label="操作">
                 <template slot-scope="scope">
@@ -90,149 +98,160 @@
                 </template>
             </el-table-column>
         </el-table>
-        <el-row><br></el-row>
+        <el-row><br><br/><br/></el-row>
+
         <el-row>
             已退款订单
+            <br/>
+            <br/>
         </el-row>
         <el-table
                 :data="bills3"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="商家编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
         </el-table>
-        <el-row><br></el-row>
+        <el-row><br><br/><br/></el-row>
+
         <el-row>
             已取消订单
+            <br/><br/>
         </el-row>
         <el-table
                 :data="bills4"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="商家编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
         </el-table>
-        <el-row><br></el-row>
+        <el-row><br><br/><br/></el-row>
 
         <el-row>
             已配送订单
+            <br/><br/>
         </el-row>
         <el-table
                 :data="bills5"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="商家编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
         </el-table>
-        <el-row><br></el-row>
+        <el-row><br><br/><br/></el-row>
 
         <el-row>
             历史订单
+            <br/><br/>
         </el-row>
         <el-table
                 :data="bills6"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="商家编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
         </el-table>
-        <el-row><br></el-row>
+        <el-row><br><br/><br/></el-row>
     </el-col>
 </template>
 

@@ -1,24 +1,32 @@
 <template>
     <el-col span="24">
-        <template >
-            请选择地址（当前为默认地址）：
-            <el-select v-model="usingAddress" placeholder="请选择地址" style="width: 400px" >
-                <el-option
-                        v-for="item in addresses"
-                        :key="item.address"
-                        :label="item.address"
-                        :value="item.address" >
-                </el-option>
-
-            </el-select>
-            <el-button
-                    size="mini"
-                    type="success"
-                    @click="handleSelecting">切换地址</el-button>
-        </template>
+        <el-row>
+            <el-col span="1">
+                <br>
+            </el-col>
+            <el-col span="22">
+                <br>
+                <br>
+                <el-form :inline="true" label-width="220px">
+                    <el-form-item label="请选择地址（当前为默认地址）">
+                        <el-select v-model="usingAddress" placeholder="请选择地址">
+                            <el-option
+                                    v-for="item in addresses"
+                                    :key="item.address"
+                                    :label="item.address"
+                                    :value="item.address" >
+                            </el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button type="success" @click="handleSelecting">切换地址</el-button>
+                    </el-form-item>
+                </el-form>
+            </el-col>
+        </el-row>
     <el-row><br></el-row>
     <el-row>
-        您在其配送范围之内的所有商家如下：
+        您在其配送范围之内的所有商家如下
     </el-row>
     <el-row><br></el-row>
         <el-table

@@ -10,59 +10,38 @@
         </el-row>
         <el-row>
             <div>
-                <br>
-                以下是您的基本信息：
-                <br>
-                <br>
+
             </div>
         </el-row>
         <el-row>
-            <el-col>
-                商户名：
-                <el-input v-model="s0.username" size="small" style="width: 200px;height:1px" >
-
-                </el-input>
+            <el-col span="8">
+                <br>
             </el-col>
-        </el-row>
-        <el-row><br></el-row>
-        <el-row>
-            <el-col>
-                城市 &nbsp：
-                <el-input v-model="s0.city" size="small" style="width: 200px;height:1px">
-                </el-input>
-            </el-col>
-        </el-row>
-        <el-row><br></el-row>
-        <el-row>
-            <el-col>
-                区/县 &nbsp：
-                <el-input v-model="s0.district" size="small" style="width: 200px;height:1px">
-                </el-input>
-            </el-col>
-        </el-row>
-        <el-row><br></el-row>
-        <el-row>
-            <el-col>
-                详细地址：
-                <el-input v-model="s0.address" size="small" style="width: 300px;height:1px">
-                </el-input>
-            </el-col>
-        </el-row>
-
-        <el-row><br></el-row>
-        <el-row>
-            <el-col>
-                会员等级：{{s0.level}}
-            </el-col>
-        </el-row>
-
-        <el-row><br></el-row>
-        <el-row>
-            <el-col span="24">
-                <el-button type="success" @click="saveInfo">保存</el-button>
-                <el-button @click="backToIndex">取消  </el-button>
-                <el-button type="warning" @click="deleteUser">注销</el-button>
-
+            <el-col span="8">
+                <br>
+                <br>
+                <el-form ref="s0" model="s0" label-width="80px">
+                    <el-form-item label="商户名">
+                        <el-input v-model="s0.username"></el-input>
+                    </el-form-item>
+                    <el-form-item label="城市">
+                        <el-input v-model="s0.city"></el-input>
+                    </el-form-item>
+                    <el-form-item label="区/县">
+                        <el-input v-model="s0.district"></el-input>
+                    </el-form-item>
+                    <el-form-item label="详细地址">
+                        <el-input v-model="s0.address"></el-input>
+                    </el-form-item>
+                    <el-form-item label="会员等级">
+                        <el-input v-model="s0.level" :disabled="true"></el-input>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button type="success" @click="saveInfo">保存</el-button>
+                        <el-button @click="backToIndex">取消  </el-button>
+                        <el-button type="warning" @click="deleteUser">注销</el-button>
+                    </el-form-item>
+                </el-form>
             </el-col>
         </el-row>
 

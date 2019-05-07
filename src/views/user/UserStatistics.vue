@@ -1,81 +1,94 @@
 <template>
     <el-col span="24">
-    <p>用户统计信息</p>
+        <br/>
         <el-row>
-            当前订餐总数： {{dto1.bookNum}} &nbsp &nbsp
-            当前退订总数： {{dto1.unBookNum}} &nbsp &nbsp
-            当前消费总金额： {{dto1.totalPrice}} &nbsp &nbsp
+            <el-col align="center">
+                <el-card style="width: 500px">
+                    <div slot="header">
+                        <span>当前信息</span>
+                    </div>
+                    当前订餐总数： {{dto1.bookNum}} <br/>
+                    当前退订总数： {{dto1.unBookNum}} <br/>
+                    当前消费总金额： {{dto1.totalPrice}} <br/>
+                </el-card>
+            </el-col>
         </el-row>
         <el-row><br></el-row>
         <el-row>
-            详细订单查询：请选择时间：&nbsp
-            <el-select v-model="time" placeholder="请选择时间" style="width: 400px" >
-                <el-option
-                        v-for="item in timeSelection"
-                        :key="item.time"
-                        :label="item.time"
-                        :value="item.time" >
-                </el-option>
-
-            </el-select>
+            <el-col span="8"><br/></el-col>
+            <el-col span="8">
+                <br/>
+                <div>
+                    详细订单查询
+                </div>
+                <br/>
+                <el-form label-width="80px">
+                    <el-form-item label="时间">
+                        <el-select v-model="time" placeholder="请选择时间" >
+                            <el-option
+                                    v-for="item in timeSelection"
+                                    :key="item.time"
+                                    :label="item.time"
+                                    :value="item.time" >
+                            </el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="金额范围">
+                        <el-col span="11">
+                            <el-input v-model="min" ></el-input>
+                        </el-col>
+                        <el-col span="2"> - </el-col>
+                        <el-col span="11">
+                            <el-input v-model="max" ></el-input>
+                        </el-col>
+                    </el-form-item>
+                    <el-form-item label="餐厅编号">
+                        <el-input v-model="sname" ></el-input>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button type="success" @click="searchBill">搜索</el-button>
+                    </el-form-item>
+                </el-form>
+            </el-col>
         </el-row>
-        <el-row><br></el-row>
-        <el-row>
-            请输入金额范围：
-            <el-input v-model="min" size="small" style="width:100px;height:1px" >
-
-            </el-input>
-            <el-input v-model="max" size="small" style="width: 100px;height:1px" >
-
-            </el-input>
-
-            &nbsp&nbsp 请输入餐厅编号：&nbsp
-            <el-input v-model="sname" size="small" style="width: 200px;height:1px" >
-
-            </el-input>
-            <el-button
-                    size="mini"
-                    type="success"
-                    @click="searchBill">搜索</el-button>
-        </el-row>
-        <el-row><br></el-row>
 
 
         <el-row><br></el-row>
         <el-table
                 :data="bills5"
                 height="200"
-                border
+                stripe="true"
+                align="center"
                 style="width: 100%">
             <el-table-column
                     prop="bid"
                     label="订单编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="sid"
                     label="用户编号"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="totalPrice"
                     label="折扣前总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="actualPrice"
                     label="折扣后总价"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="time"
                     label="下单时间"
-                    width="180">
+                    width="200">
             </el-table-column>
             <el-table-column
                     prop="address"
                     label="收货地址"
-                    width="180">
+                    width="200">
             </el-table-column>
 
         </el-table>
