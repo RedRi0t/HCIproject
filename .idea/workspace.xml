@@ -2,12 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d885c4ea-8481-4864-9e11-7a4bd87c3a4c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/user/Address.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/Address.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/user/Book.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/Book.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/user/UserBill.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/UserBill.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/user/UserInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/UserInfo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/user/UserStatistics.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/UserStatistics.vue" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/divider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/timeline-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/breadcrumb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/carousel-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/carousel-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/color-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/display.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/display.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/fonts/element-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/fonts/element-icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/fonts/element-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/fonts/element-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/notification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/option-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/option-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/option.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/option.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/popper.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/popper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/progress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/rate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/rate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/select-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/select-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/upload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/AdminLogin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/AdminLogin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/StudentLogin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/StudentLogin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/StudentLoginInputs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/StudentLoginInputs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/welcome/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/welcome/Register.vue" afterDir="false" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,8 +136,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/user/Address.vue">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-1083">
               <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+=======
+            <state relative-caret-position="100">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
             </state>
           </provider>
         </entry>
@@ -74,26 +150,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/user/User.vue">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-2132">
               <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
               <folding>
                 <element signature="n#el-aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" />
                 <element signature="n#el-main#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" />
               </folding>
+=======
+            <state relative-caret-position="496">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/views/user/Detail.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/views/welcome/Register.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#el-form-item#0;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-form-item#1;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#el-col#0;n#el-form-item#1;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-col#1;n#el-form-item#1;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-form-item#2;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-form-item#3;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/views/user/UserInfo.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
@@ -101,6 +198,12 @@
               <folding>
                 <element signature="e#3084#3137#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/views/login/StudentLoginInputs.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
             </state>
           </provider>
         </entry>
@@ -108,12 +211,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/App.vue">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="105">
               <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+=======
+            <state relative-caret-position="883">
+              <caret line="204" column="27" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+              <folding>
+                <element signature="e#910#963#0" expanded="true" />
+              </folding>
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,6 +272,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -194,7 +308,6 @@
         <option value="$PROJECT_DIR$/src/views/welcome/Welcome.vue" />
         <option value="$PROJECT_DIR$/src/views/Seller/Seller.vue" />
         <option value="$PROJECT_DIR$/config/index.js" />
-        <option value="$PROJECT_DIR$/src/views/welcome/Register.vue" />
         <option value="$PROJECT_DIR$/src/views/seller/SellerInfo.vue" />
         <option value="$PROJECT_DIR$/src/views/seller/StartGood.vue" />
         <option value="$PROJECT_DIR$/src/views/seller/CreateGood.vue" />
@@ -216,9 +329,10 @@
         <option value="$PROJECT_DIR$/src/views/seller/SellerStatistics.vue" />
         <option value="$PROJECT_DIR$/src/routes/routes.js" />
         <option value="$PROJECT_DIR$/src/views/admin/AdminStatistics.vue" />
+        <option value="$PROJECT_DIR$/src/views/login/StudentLogin.vue" />
         <option value="$PROJECT_DIR$/src/views/login/StudentLoginInputs.vue" />
         <option value="$PROJECT_DIR$/src/views/login/AdminLogin.vue" />
-        <option value="$PROJECT_DIR$/src/views/login/StudentLogin.vue" />
+        <option value="$PROJECT_DIR$/src/views/welcome/Register.vue" />
         <option value="$PROJECT_DIR$/src/views/App.vue" />
         <option value="$PROJECT_DIR$/src/views/user/Address.vue" />
         <option value="$PROJECT_DIR$/src/views/user/UserInfo.vue" />
@@ -242,6 +356,7 @@
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
@@ -255,6 +370,12 @@
     <option name="y" value="743" />
     <option name="width" value="1680" />
     <option name="height" value="856" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1090" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -265,8 +386,46 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="javaee" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="theme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="HCIproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javaee" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="welcome" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +474,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wangruihua/WebstormProjects/javaee/src/views/user/UserBill.vue&#10;promptC&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557056567768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557072038527" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -326,16 +485,18 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\njuss\Developer\HCIproject\src\assets\theme\theme-NJUpurple\fonts" />
+      <recent name="C:\Users\njuss\Developer\HCIproject\src\assets\theme\theme-NJUpurple" />
+      <recent name="C:\Users\njuss\Developer\HCI\javaee\node_modules\_@babel_highlight@7.0.0@@babel" />
+      <recent name="$PROJECT_DIR$/src/views/admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\njuss\Developer\HCIproject\src\assets\theme\theme-NJUpurple" />
       <recent name="C:\Users\njuss\Developer\HCI\javaee\src\views\login\img" />
       <recent name="$PROJECT_DIR$/src/views/user/img" />
       <recent name="$PROJECT_DIR$/src/views/seller/img" />
       <recent name="$PROJECT_DIR$/src/views/admin/img" />
-      <recent name="$PROJECT_DIR$/src/views/seller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\njuss\Developer\HCI\javaee\node_modules\_@babel_highlight@7.0.0@@babel" />
-      <recent name="$PROJECT_DIR$/src/views/admin" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -415,19 +576,32 @@
       <workItem from="1556605129023" duration="437000" />
       <workItem from="1556634607807" duration="254000" />
       <workItem from="1556810740600" duration="6740000" />
+<<<<<<< HEAD
       <workItem from="1557069047684" duration="3566000" />
       <workItem from="1557232757621" duration="10888000" />
+=======
+      <workItem from="1557062198043" duration="499000" />
+      <workItem from="1557062898708" duration="7592000" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="138936000" />
+=======
+    <option name="totallyTimeSpent" value="132573000" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
   </component>
   <component name="ToolWindowManager">
     <frame x="292" y="194" width="1680" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21097046" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -437,7 +611,11 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.2860215" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2855228" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,6 +666,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/views/admin/Admin.vue" />
     <entry file="file://$PROJECT_DIR$/src/views/welcome/Register.vue" />
     <entry file="file://$PROJECT_DIR$/src/views/seller/Bills.vue" />
@@ -550,6 +729,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/views/admin/img/avatar.jpg">
+      <provider selected="true" editor-type-id="images" />
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/user/User.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,13 +789,63 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/views/user/Book.vue">
+=======
+    <entry file="file://$PROJECT_DIR$/src/views/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_vue-property-decorator@7.3.0@vue-property-decorator/lib/vue-property-decorator.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/components/Body.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/login/LoginPrompt.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/admin/enrollment/StartEnrollment.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/admin/enrollment/SetProfessions.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/admin/enrollment/EndEnrollment.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/user/User.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/upload.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/alert.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/aside.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/autocomplete.css">
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/views/user/UserStatistics.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -624,5 +857,66 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/base.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/badge.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="111" lean-forward="true" selection-start-column="111" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/theme/theme-NJUpurple/popper.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/login/StudentLoginInputs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/login/StudentLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/login/AdminLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="883">
+          <caret line="204" column="27" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+          <folding>
+            <element signature="e#910#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/welcome/Register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#el-form-item#0;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-form-item#1;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#el-col#0;n#el-form-item#1;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-form-item#1;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-form-item#2;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-form-item#3;n#el-form#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> ff08d03129acd99622db8a0bcb279aaf26cabd35
   </component>
 </project>
