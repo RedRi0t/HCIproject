@@ -7,7 +7,7 @@
 
         <el-main>
             <el-form :inline="true" ref="form" :model="form" label-width="100px">
-                <el-form-item label="注册类型" :rules="[{ required: true}]" style="float: left">
+                <el-form-item label="注册类型:" :rules="[{ required: true}]" style="float: left">
                     <el-radio-group v-model="form.category">
                         <el-radio label="普通用户"></el-radio>
                         <el-radio label="商家用户"></el-radio>
@@ -15,11 +15,11 @@
 
                 </el-form-item>
 
-                <el-form-item label="注册邮箱" prop="email"
+                <el-form-item label="注册邮箱:" prop="email"
                               :rules="[{ required: true, message: '请输入邮箱地址'},
                               { type: 'email', message: '请输入正确的邮箱地址'}]" style="float: left;">
                     <el-col :span="17">
-                        <el-input v-model="form.email" clearable style="display: inline"></el-input>
+                        <el-input v-model="form.email" clearable></el-input>
                     </el-col>
 
                     <el-col :span="3" style="margin-left: 5px">
@@ -27,8 +27,20 @@
                     </el-col>
                 </el-form-item>
 
-                <el-form-item label="邮箱验证码" style="float: left" :rules="[{required: true}]">
+                <el-form-item label="邮箱验证码:" style="float: left" :rules="[{required: true}]">
                     <el-input v-model="form.code" clearable></el-input>
+                </el-form-item>
+
+                <el-form-item label="用户名:" style="float: left" :rules="[{required: true}]">
+                    <el-input v-model="form.name" clearable></el-input>
+                </el-form-item>
+
+                <el-form-item label="密码:" style="float: left" :rules="[{required: true}]">
+                    <el-input v-model="form.password" clearable></el-input>
+                </el-form-item>
+
+                <el-form-item label="确认密码:" style="float: left" :rules="[{required: true}]">
+                    <el-input v-model="form.confirm_password" clearable></el-input>
                 </el-form-item>
 
                 <el-form-item label=" " style="float: left">
@@ -47,8 +59,13 @@
                 form: {
                     category: '',
                     email: '',
-                    code: ''
-                }
+                    code: '',
+                    name: '',
+                    password: '',
+                    confirm_password: ''
+                },
+
+                active: 0
             }
         },
         methods: {
@@ -76,6 +93,7 @@
         width: 30%;
         margin: 0 auto;
     }
+
 
 
 
