@@ -62,7 +62,7 @@
     straightLogin () {
       setCookie('username', "admin", 1000 * 60)
       setCookie('actualName', "WenSun", 1000 * 60)
-      this.$router.push('/search')
+      this.$router.push('/search/list')
     }
   }
 
