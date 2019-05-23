@@ -23,7 +23,7 @@
                     </el-col>
 
                     <el-col :span="3" style="margin-left: 5px">
-                        <el-button type="primary">获取验证码</el-button>
+                        <el-button type="primary" @click="getCode">获取验证码</el-button>
                     </el-col>
                 </el-form-item>
 
@@ -52,7 +52,7 @@
                 </el-form-item>
 
                 <el-form-item label=" " style="float: left">
-                    <el-button type="primary">立即创建</el-button>
+                    <el-button type="primary" @click="onSubmit">立即创建</el-button>
                     <el-button>取消</el-button>
                 </el-form-item>
             </el-form>
@@ -65,6 +65,7 @@
     import { pca, pcaa } from 'area-data'; // v5 or higher
     import 'vue-area-linkage/dist/index.css'; // v2 or higher
     import VueAreaLinkage from 'vue-area-linkage';
+    import axios from 'axios'
 
     Vue.use(VueAreaLinkage)
     export default {
@@ -86,7 +87,65 @@
         },
         methods: {
             onSubmit() {
-                console.log('submit!');
+                if(this.username==''){
+                    alert("用户名不得为空")
+                }else if(this.password==''){
+                    alert("密码不得为空")
+                }else if(this.password!=this.password_again){
+                    alert("前后密码不一致")
+                }else{
+                    axios.post('http://localhost:3142/welcome/signup',{
+                        'username':this.username,
+                        'password':this.password,
+                        'emailAddress':this.email,
+                        'code':this.code,
+                        'city':this.city,
+                        'district':this.district,
+                        'address':this.address,
+                        'type':this.radio
+                    }).then((response=>{
+
+                        if(response.status==201){
+
+                            alert("注册成功")
+                            this.$router.push('/')
+                        }
+                    })).catch(reason=>{
+                            //alert(reason.toString().split(" ")[reason.toString().split(" ").length-1]);
+                             status=reason.toString().split(" ")[reason.toString().split(" ").length-1];
+                            if(status=="501"){
+                                alert("邮箱已被注册")
+                            }else{
+                                alert("邮箱验证失败")
+                            }
+                        }
+                    )}
+            },
+
+            getCode(){
+                //获取验证码
+                alert("called1!!");
+                alert(this.form.email);
+                alert("called2!!");
+                axios.post('http://localhost:3142/email',{
+                    'name':'',
+                    'emailAddress':this.form.email
+
+                }).then((response=>{
+                    if(response.status==201){
+                        alert("邮件已发送，请前往邮箱查收")
+                    }
+                })).catch(reason => {
+                    status=reason.toString().split(" ")[reason.toString().split(" ").length-1];
+                    alert(status);
+                    alert(reason.toString());
+                    if(status=="403"){
+                        alert("我们观察到该邮箱已被注册，请您更换邮箱！")
+                    }else{
+                        alert("网络错误，发送失败")
+                    }
+                })
+
             }
         }
     }
