@@ -54,8 +54,6 @@
       /*如果存在cookie，则转到主页*/
       if (getCookie('emailAddress') && getCookie('username')) {
         this.$router.push('/home')
-      }else{
-          this.straightLogin()
       }
     }
 
