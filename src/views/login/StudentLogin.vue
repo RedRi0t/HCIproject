@@ -53,7 +53,9 @@
     mounted () {
       /*如果存在cookie，则转到主页*/
       if (getCookie('emailAddress') && getCookie('username')) {
-        this.$router.push('/home')
+          this.$router.push('/home')
+      } else {
+          this.$router.push('/search/list')
       }
     }
 

@@ -72,7 +72,7 @@
         }
 
         private resDetailPage() {
-
+            this.$router.push('/res/detail');
         }
     }
 
@@ -87,10 +87,6 @@
 <style scoped>
     .box-card {
         width: 800px;
-    }
-    .bottom {
-        margin-top: 13px;
-        line-height: 12px;
     }
     .image {
         width: 100%;

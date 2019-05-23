@@ -67,6 +67,12 @@ export default new Router({
             hidden:true
         },
         {
+            path:'/res/detail',
+            name:'ResDetail',
+            component:ResDetail,
+            hidden:true
+        },
+        {
             path:'/register',
             name:'Register',
             component:Register,
