@@ -44,7 +44,7 @@
                 </el-form-item>
 
                 <el-form-item label="默认收获地址:" style="float: left;width: 700px" size="medium" :rules="[{required: true}]">
-                    <area-select v-model="form.address" :data="pcaa" :level="2" style="float:left;"></area-select>
+                    <area-select type="text" v-model="form.address" :data="pcaa" :level="2" style="float:left;"></area-select>
                 </el-form-item>
 
                 <el-form-item label="" style="float: left;width: 500px" :rules="[{required: true}]">
