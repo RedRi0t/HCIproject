@@ -37,6 +37,7 @@ import SellerStatistics from '../views/seller/SellerStatistics.vue'
 import AdminStatistics from '../views/admin/AdminStatistics.vue'
 import SearchPage from '../views/reader/SearchPage'
 import SearchList from '../views/reader/SearchList'
+import ResDetail from '../views/reader/ResDetail'
 
 Vue.use(Router);
 export default new Router({
@@ -61,7 +62,7 @@ export default new Router({
             hidden:true
         },
         {
-            path:'/search/list',
+            path:'/searchList',
             name:'SearchList',
             component:SearchList,
             hidden:true

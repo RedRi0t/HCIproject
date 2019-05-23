@@ -45,6 +45,7 @@
                 </el-dropdown>
             </el-col>
         </el-col>
+
         <el-col :span="24" class="main">
             <!--侧边栏-->
             <el-aside :class="this.collapsed?'menu-collapsed':'menu-expanded'">

@@ -54,15 +54,15 @@
       /*如果存在cookie，则转到主页*/
       if (getCookie('emailAddress') && getCookie('username')) {
           this.$router.push('/home')
-      } else {
-          this.$router.push('/search/list')
+      }else {
+          this.straightLogin()
       }
     }
 
     straightLogin () {
       setCookie('username', "admin", 1000 * 60)
       setCookie('actualName', "WenSun", 1000 * 60)
-      this.$router.push('/search/list')
+      this.$router.push('/searchList')
     }
   }
 
