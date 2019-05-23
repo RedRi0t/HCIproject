@@ -35,6 +35,7 @@ import Settle from '../views/admin/Settle.vue'
 import UserStatistics from '../views/user/UserStatistics.vue'
 import SellerStatistics from '../views/seller/SellerStatistics.vue'
 import AdminStatistics from '../views/admin/AdminStatistics.vue'
+import SearchPage from '../views/reader/SearchPage'
 
 
 Vue.use(Router);
@@ -51,6 +52,12 @@ export default new Router({
             path:'/welcome',
             name:'Welcome',
             component:Welcome,
+            hidden:true
+        },
+        {
+            path:'/search',
+            name:'SearchPage',
+            component:SearchPage,
             hidden:true
         },
         {
