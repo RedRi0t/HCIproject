@@ -5,6 +5,12 @@ import '../assets/js/bootstrap.min';
 import Vue from 'vue';
 import App from './App.vue';
 import router from '../routes/routes';
+
+import Vue from 'vue'
+import 'vue-area-linkage/dist/index.css'
+import VueAreaLinkage from 'vue-area-linkage';
+
+Vue.use(VueAreaLinkage);
 Vue.config.productionTip = false;
 var app = new Vue({
     router: router,

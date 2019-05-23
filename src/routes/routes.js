@@ -36,6 +36,7 @@ import UserStatistics from '../views/user/UserStatistics.vue'
 import SellerStatistics from '../views/seller/SellerStatistics.vue'
 import AdminStatistics from '../views/admin/AdminStatistics.vue'
 
+
 Vue.use(Router);
 export default new Router({
     modes: 'history',

@@ -6,7 +6,7 @@
         </el-header>
 
         <el-main>
-            <el-form :inline="true" ref="form" :model="form" label-width="100px">
+            <el-form ref="form" :model="form" label-width="120px">
                 <el-form-item label="注册类型:" :rules="[{ required: true}]" style="float: left">
                     <el-radio-group v-model="form.category">
                         <el-radio label="普通用户"></el-radio>
@@ -43,6 +43,14 @@
                     <el-input v-model="form.confirm_password" clearable></el-input>
                 </el-form-item>
 
+                <el-form-item label="默认收获地址:" style="float: left;width: 700px" size="medium" :rules="[{required: true}]">
+                    <area-select v-model="form.address" :data="pcaa" :level="2" style="float:left;"></area-select>
+                </el-form-item>
+
+                <el-form-item label="" style="float: left;width: 500px" :rules="[{required: true}]">
+                    <el-input v-model="form.detail_address" placeholder="详细地址"></el-input>
+                </el-form-item>
+
                 <el-form-item label=" " style="float: left">
                     <el-button type="primary">立即创建</el-button>
                     <el-button>取消</el-button>
@@ -53,6 +61,12 @@
 </template>
 
 <script>
+    import Vue from 'vue';
+    import { pca, pcaa } from 'area-data'; // v5 or higher
+    import 'vue-area-linkage/dist/index.css'; // v2 or higher
+    import VueAreaLinkage from 'vue-area-linkage';
+
+    Vue.use(VueAreaLinkage)
     export default {
         data() {
             return {
@@ -62,10 +76,12 @@
                     code: '',
                     name: '',
                     password: '',
-                    confirm_password: ''
+                    confirm_password: '',
+                    address: [],
+                    detail_address:''
                 },
-
-                active: 0
+                pca:pca,
+                pcaa:pcaa
             }
         },
         methods: {

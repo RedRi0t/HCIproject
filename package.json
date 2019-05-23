@@ -11,6 +11,7 @@
     "mock": "node static/MockServer.js"
   },
   "dependencies": {
+    "area-data": "^5.0.6",
     "axios": "^0.18.0",
     "element-ui": "^2.5.3",
     "express-serve-static-core": "^0.1.1",
@@ -19,6 +20,7 @@
     "serve-static": "^1.13.2",
     "vue": "^2.5.2",
     "vue-amap": "^0.5.9",
+    "vue-area-linkage": "^5.1.0",
     "vue-class-component": "^6.3.2",
     "vue-property-decorator": "^7.3.0"
   },
