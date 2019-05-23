@@ -9,8 +9,8 @@
             <el-form ref="form" :model="form" label-width="120px">
                 <el-form-item label="注册类型:" :rules="[{ required: true}]" style="float: left">
                     <el-radio-group v-model="form.category">
-                        <el-radio label="普通用户"></el-radio>
-                        <el-radio label="商家用户"></el-radio>
+                        <el-radio label="0">普通用户</el-radio>
+                        <el-radio label="1">商家用户</el-radio>
                     </el-radio-group>
 
                 </el-form-item>
@@ -87,22 +87,22 @@
         },
         methods: {
             onSubmit() {
-                if(this.username==''){
+                if(this.form.name===''){
                     alert("用户名不得为空")
-                }else if(this.password==''){
+                }else if(this.form.password===''){
                     alert("密码不得为空")
-                }else if(this.password!=this.password_again){
+                }else if(this.form.password!==this.form.confirm_password){
                     alert("前后密码不一致")
                 }else{
                     axios.post('http://localhost:3142/welcome/signup',{
-                        'username':this.username,
-                        'password':this.password,
-                        'emailAddress':this.email,
-                        'code':this.code,
-                        'city':this.city,
-                        'district':this.district,
-                        'address':this.address,
-                        'type':this.radio
+                        'username':this.form.name,
+                        'password':this.form.password,
+                        'emailAddress':this.form.email,
+                        'code':this.form.code,
+                        'city':this.form.address[0],
+                        'district':this.form.address[1],
+                        'address':this.form.address[2],
+                        'type':this.form.category
                     }).then((response=>{
 
                         if(response.status==201){
