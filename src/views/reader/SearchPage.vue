@@ -1,6 +1,12 @@
 <template>
     <el-container>
-        <el-header style="width: 70%;height:600px;margin: 0 auto">
+        <el-header style="width: 70%;margin: 0 auto">
+            <div style="margin-top: 10px;float: right">
+                <el-button type="primary">购物车</el-button>
+                <el-button>登录|注册</el-button>
+            </div>
+        </el-header>
+        <el-header style="width: 70%;height:500px;margin: 0 auto">
             <div style="margin: 10px auto">
                 <div id="logo">
                     <img src="https://s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/logo.png">
@@ -16,7 +22,7 @@
                 </el-form>
             </div>
 
-            <el-carousel indicator-position="outside" style="margin: 70px auto;width: 700px">
+            <el-carousel indicator-position="outside" style="margin: 50px auto;width: 700px">
                 <el-carousel-item v-for="item in 4" :key="item">
                     <h3>{{ item }}</h3>
                 </el-carousel-item>
@@ -24,16 +30,130 @@
 
         </el-header>
 
-        <el-main style="width: 70%;height:600px;margin: 0 auto">
-            <div id="category">
-                <el-row :gutter="15" style="margin: 0 auto">
-                    <el-col :span="5"><div class="grid-content bg-purple">分类1</div></el-col>
-                    <el-col :span="5"><div class="grid-content bg-purple">分类2</div></el-col>
-                    <el-col :span="5"><div class="grid-content bg-purple">分类3</div></el-col>
-                    <el-col :span="5"><div class="grid-content bg-purple">分类4</div></el-col>
+        <el-main >
+            <div class="category">
+                <el-row :gutter="10" style="margin: 0 auto">
+                    <el-col :span="6"><div class="grid-content bg-purple">分类1</div></el-col>
+                    <el-col :span="6"><div class="grid-content bg-purple">分类2</div></el-col>
+                    <el-col :span="6"><div class="grid-content bg-purple">分类3</div></el-col>
+                    <el-col :span="6"><div class="grid-content bg-purple">分类4</div></el-col>
+                </el-row>
+                <el-row :gutter="10" style="margin: 10px auto">
+                    <el-col :span="6"><div class="grid-content bg-purple">分类1</div></el-col>
+                    <el-col :span="6"><div class="grid-content bg-purple">分类2</div></el-col>
+                    <el-col :span="6"><div class="grid-content bg-purple">分类3</div></el-col>
+                    <el-col :span="6"><div class="grid-content bg-purple">分类4</div></el-col>
                 </el-row>
             </div>
         </el-main>
+
+        <el-main style="width: 70%;height:600px;margin: 0 auto">
+            <div class="category">
+                <el-row :gutter="10">
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row :gutter="10">
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-card :body-style="{ padding: '0px' }" shadow="hover">
+                            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
+                            <div style="padding: 14px;">
+                                <span>好吃的汉堡</span>
+                                <div class="bottom clearfix">
+                                    <el-button type="text" class="button">进店</el-button>
+                                </div>
+                            </div>
+                        </el-card>
+                    </el-col>
+                </el-row>
+            </div>
+
+        </el-main>
+
+
+        <div style="overflow: hidden;position: fixed;right: 10px;bottom: 20px;z-index: 10;">
+            <div style="overflow: hidden;">
+                <div style="padding-top:20px;padding-right:300px;padding-bottom:50px">
+                    <el-button style="float: right;" type="primary" icon="el-icon-shopping-cart-full" size="medium" round></el-button>
+                </div>
+            </div>
+        </div>
 
     </el-container>
 </template>
@@ -67,8 +187,9 @@
         margin-left: 120px;
     }
 
-    #category{
+    .category{
         margin: 0 auto;
+        width: 700px;
     }
 
     .el-carousel__item h3 {
@@ -110,4 +231,35 @@
         padding: 10px 0;
         background-color: #f9fafc;
     }
+
+    .time {
+        font-size: 13px;
+        color: #999;
+    }
+
+    .bottom {
+        margin-top: 13px;
+        line-height: 12px;
+    }
+
+    .button {
+        padding: 0;
+        float: right;
+    }
+
+    .image {
+        width: 100%;
+        display: block;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+        display: table;
+        content: "";
+    }
+
+    .clearfix:after {
+        clear: both
+    }
+
 </style>
