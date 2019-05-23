@@ -1,5 +1,5 @@
 <template>
-        <div class="total header">
+        <div class="total header_bg">
             <div class="content">
                 <div class="foo">
                     <div class="head clearFix">
@@ -73,7 +73,7 @@
 
     /* Header */
 
-    .header {
+    .header_bg {
         padding: 9em 0 9em 0 ;
         background-color: #4686a0;
         color: rgba(255, 255, 255, 0.75);
